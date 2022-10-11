@@ -3,7 +3,7 @@ require __DIR__ . '/vendor/autoload.php';
 ini_set("date.timezone", "Europe/Riga");
 
 
-use Apps\Application;
+use App\Application;
 
 $app = new Application();
-echo $app->getName();
+echo $app->renderView('src/views/base.php');
