@@ -1,0 +1,10 @@
+{
+    "name": "rvt/vadims",
+    "description": "school",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
